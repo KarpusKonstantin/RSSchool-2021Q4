@@ -11,8 +11,6 @@ const shiftCipher = (action, str, shift) => {
     if (c.match(/[a-z]/i)) {
       let code = str.charCodeAt(i);
 
-      console.log('CODE >>', str[i], code);
-
       if (code >= 65 && code <= 90) {
         c = String.fromCharCode(((code - 65 + shift) % 26) + 65);
       } else if (code >= 97 && code <= 122) {
