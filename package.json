@@ -1,0 +1,23 @@
+{
+  "name": "rsschool-2021q4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarpusKonstantin/RSSchool-2021Q4.git"
+  },
+  "author": "Karpus Konstantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarpusKonstantin/RSSchool-2021Q4/issues"
+  },
+  "homepage": "https://github.com/KarpusKonstantin/RSSchool-2021Q4#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
