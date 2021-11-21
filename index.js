@@ -10,8 +10,6 @@ const { pipeline } = require('stream');
 
 const paramsObject = cliParser(process.argv.slice(2));
 
-console.log(process.argv.slice(2));
-
 function getArrayTransformStream (param) {
   const paramArray = param.split('-');
   let streamArray = [];
